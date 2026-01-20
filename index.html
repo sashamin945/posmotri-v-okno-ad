@@ -3,119 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Посмотри в окно</title>
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/preloader.css" />
-    <link rel="stylesheet" href="./styles/error.css" />
-  </head>
-  <body class="page">
-    <main class="content">
-      <section class="result">
-        <div class="result__video-container">
-          <video src="" controls class="result__video" poster=""></video>
-        </div>
-        <form class="search-form">
-          <fieldset class="search-form__fieldset">
-            <h2 class="search-form__fieldset-title">Город</h2>
-            <label class="search-form__label">
-              <span class="search-form__label-text visually-hidden">Город</span>
-              <input
-                type="text"
-                placeholder="Санкт Петербург, например"
-                name="city"
-                class="search-form__textfield"
-              />
-            </label>
-          </fieldset>
-          <fieldset class="search-form__fieldset">
-            <h2 class="search-form__fieldset-title">Время суток</h2>
-            <div class="search-form__checkbox-list">
-              <label class="search-form__label">
-                <input
-                  type="checkbox"
-                  name="time"
-                  value="morning"
-                  class="search-form__checkbox visually-hidden"
-                />
-                <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">Утро</span>
-              </label>
-              <label class="search-form__label">
-                <input
-                  type="checkbox"
-                  name="time"
-                  value="afternoon"
-                  class="search-form__checkbox visually-hidden"
-                />
-                <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">День</span>
-              </label>
-              <label class="search-form__label">
-                <input
-                  type="checkbox"
-                  name="time"
-                  value="night"
-                  class="search-form__checkbox visually-hidden"
-                />
-                <span class="search-form__pseudo-checkbox"></span>
-                <span class="search-form__label-text">Ночь</span>
-              </label>
-            </div>
-          </fieldset>
-          <button type="submit" class="button search-form__submit-button">
-            Найти
-          </button>
-        </form>
-      </section>
-      <section class="content__details">
-        <h1 class="title">
-          <span class="content__accent">По-</span><br />смотри<br />в окно
-        </h1>
-        <div class="content__list-container">
-          <ul class="content__list">
-            <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
-          </ul>
-        </div>
-      </section>
-    </main>
-
-    <!-- ТЕМПЛЕЙТЫ -->
-
-    <template class="preloader-template">
-      <div class="preloader">
-        <div class="preloader-chasing-squares">
-          <div class="square"></div>
-          <div class="square"></div>
-          <div class="square"></div>
-          <div class="square"></div>
-        </div>
+      <meta charset="UTF-8">
+      <title>Посмотри в окно</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style/style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <main>
+    <header class="header">
+        <h1 class="header-one">ПО-</h1>
+        <h1 class="header-two">СМОТРИ<br>В ОКНО</h1>
+       <ul class="ul1">
+         <li>ГЛАВНАЯ</li>
+         <li><a href="index2.html">ИЗБРАННОЕ</a></li>
+         <li>О НАС</li>
+       </ul>
+    </header>
+    <img id="main-video" class="video" src="../Фотки спринт 2/video.png">
+    <div class="mainn">
+    <h1 class="main-one">ПО-</h1>
+    <h1 class="main-two">СМОТРИ<br>В ОКНО</h1>
+    </div>
+    <div class="div">
+      <div class="divv">
+         <div class="card">
+         <p class="card-content1">БЕЛГОРОД</p>
+         <p class="card-content2">ночной Белгород</p>
+         </div>
+         <div class="image-wrapper">
+            <img class="img" src="../Фотки спринт 2/preview.png">
+          <a href="" class="heart-link">
+            <img class="heart" src="../Фотки спринт 2/image 56.svg">
+         </a>
+          </div>
       </div>
-    </template>
-
-    <template class="cards-list-item-template">
-      <li class="content__list-item">
-        <a href="#0" class="content__card-link">
-          <article class="content__video-card">
-            <div class="content__video-card-description-container">
-              <h2 class="content__video-card-title"></h2>
-              <p class="content__video-card-description"></p>
-            </div>
-            <img src="" alt="" class="content__video-card-thumbnail" />
-          </article>
-        </a>
-      </li>
-    </template>
-    <template class="more-button-template">
-      <button class="button more-button">Показать еще</button>
-    </template>
-
-    <template class="error-template">
-      <div class="error">
-        <h2 class="error__title">Из этого города нет видео :(</h2>
+      <div class="divv">
+         <div class="card">
+         <p class="card-content1">АДЛЕР</p>
+         <p class="card-content2">Адлер утром</p>
+         </div>
+         <div class="image-wrapper">
+            <img class="img" src="../Фотки спринт 2/preview (1).png">
+         <a href="" class="heart-link">
+            <img class="heart" src="../Фотки спринт 2/image 56.svg">
+         </a>
+         </div>
       </div>
-    </template>
-    <script src="./scripts/script.js"></script>
-  </body>
+      <div class="divv">
+         <div class="card">
+         <p class="card-content1">ВОРОНЕЖ</p>
+         <p class="card-content2">Воронеж днем</p>
+         </div>
+         <div class="image-wrapper">
+            <img class="img" src="../Фотки спринт 2/preview (2).png">
+         <a href="" class="heart-link">
+            <img class="heart" src="../Фотки спринт 2/image 56.svg">
+         </a>
+         </div>
+      </div>
+      <div class="divv" style="display: none;" id="container4">
+         <div class="card">
+         <p class="card-content1">ЗЕЛЕНОГРАД...</p>
+         <p class="card-content2">Зеленоградск днем</p>
+         </div>
+         <div class="image-wrapper">
+            <img class="img" src="../Фотки спринт 2/preview (3).png">
+         <a href="" class="heart-link">
+            <img class="heart" src="../Фотки спринт 2/image 56.svg">
+         </a>
+         </div>
+      </div>
+     <button class="btn1" id="btn1">Показать ещё</button>
+     </div>
+     <div class="divvv">
+    <p class="gorod">Город</p>
+    <div class="list">
+    <input type="text" class="input" placeholder="Санкт-Петербург, например" id="input">
+    <div class="cities" id="cities">
+        <div class="city">Белгород</div>
+        <div class="city">Адлер</div>
+        <div class="city">Воронеж</div>
+        <div class="city">Зеленоградск</div>
+    </div>
+</div>
+<span class="day">Время суток</span>
+<ul class="ul2">
+   <div class="radios">
+   <li>
+   <input type="radio" id="radio1" name="choice" value="утро">
+   <label for="radio1">Утро</label>
+   </li>
+   </div>
+   <div class="radios">
+   <li>
+   <input type="radio" id="radio2" name="choice" value="день">
+   <label for="radio2">День</label>
+   </li>
+   </div>
+   <div class="radios">
+   <li>
+   <input type="radio" id="radio3" name="choice" value="ночь">
+   <label for="radio3">Ночь</label>
+   </li>
+   </div>
+</ul>
+<button class="btn2">Найти</button>
+</div>
+      </main>
+<script src="./scripts/script.js"></script>
+   </body>
 </html>
