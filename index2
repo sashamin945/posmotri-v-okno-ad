@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Посмотри в окно</title>
+    <link rel="stylesheet" href="./style/style2.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="main">
+        <div class="header-line"></div>
+<header class="header">
+    <div class="header-left">
+        <div class="header.container">
+            <span class="main-text1">ПО-</span>
+            <span class="main-text2">СМОТРИ</span>
+            <span class="main-text3">В ОКНО</span>
+        </div>
+    </div>
+    <div class="header-right">
+        <nav class="nav1">
+            <a href="index.html" class="nav2 text">ГЛАВНАЯ</a>
+            <a class="nav2 text1">ИЗБРАННОЕ</a>
+            <a href="index1.html" class="nav2 text2">О НАС</a>
+        </nav>
+        <a href="authorization.html" class="profile">
+            <span class="profile-icon"></span>
+        </a>
+    </div>
+</header>
+<section class="content-section">
+    <div class="section">
+       <b><h1>ВАШЕ&nbsp;ИЗБРАННОЕ</h1></b>
+    </div>
+    <div class="section-block">
+    <div class="section-text">
+        ОЙ-ОЙ! В «ИЗБРАННОМ» ПОКА ПУСТО
+    </div>
+    <div class="text-section">
+        НО ЭТО ЛЕГКО ИСПРАВИТЬ! НАЙДИТЕ НА «ПО-<br>СМОТРИ В ОКНО» ГОРОД, КОТОРЫЙ ЗАЦЕПИЛ ВАС<br> И ДОБАВЬТЕ ЕГО В «ИЗБРАННОЕ»,НАЖАВ НА<br>
+    </div>
+    <div class="text-section1">
+         СЕРДЕЧКО. ТАК ВЫ СМОЖЕТЕ БЫСТРО<br> ВОЗВРАЩАТЬСЯ К ЛЮБИМЫМ ВИДАМ. 
+    </div>
+    <div class="text-section3">
+        ПОПРОБУЙТЕ ПРЯМО СЕЙЧАС!
+    </div>
+    </div>
+</section>
+        </div>
+        </body>
