@@ -102,12 +102,6 @@ body {
     background-color: rgba(27, 25, 25, 1);
     min-height: 100vh;
 }
-.header{
-    background-color:rgba(27, 25, 25, 1);
-    width: 1200px;
-    height: 58px;
-    border-bottom: 1px solid #ffffff;
-}
 
 main {
     width: 1200px;
@@ -115,53 +109,6 @@ main {
     background-color: #1B1919;
     overflow: hidden;
     position: relative;
-}
-.header-one {
-    color: #545050;
-    text-transform: uppercase;
-    font-family: "Oswald";
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 94%;
-    position: relative;
-    top: 10px;
-    left: 10px;
-}
-.header-two {
-  text-transform: uppercase;
-  color: white;
-    font-family: Oswald;
-    font-weight: bold;
-    font-size: 12px;
-    line-height: 94%;
-    position: relative; 
-    left: 10px;
-    top: 9px;
-
-}
-.ul1 {
-    color: white;
-    font-family: "Oswald";
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 94%;
-    text-transform: uppercase;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 62px;
-    position: relative;
-    left: 277px;
-    top: -13px;
-}
-.ul1 li a {
-  color: white;          
-  text-decoration: none; 
-}
-.ul1 li a:hover {
-    text-decoration: underline; 
-
 }
 
 .video {
