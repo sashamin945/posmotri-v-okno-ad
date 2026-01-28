@@ -1,28 +1,22 @@
-name: Проверка структуры проекта
+name: Tests
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - '**'
+    tags:
+      - '**'
 
 jobs:
-  check-structure:
+  tests:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout код
+      - name: Checkout repository
         uses: actions/checkout@v3
-
-      - name: Проверка index.html
-        run: test -f index.html
-
-      - name: Проверка папки styles и файлов
-        run: |
-          test -d styles
-          test -f styles/style.css
-          test -f styles/preloader.css
-          test -f styles/error.css
-
-      - name: Проверка папки scripts
-        run: |
-          test -d scripts
-          test -f scripts/script.js
-
-      - name: ✅ Всё в порядке!
-        run: echo "Структура проекта корректна"
+      - name: Check if the repository is private
+        run: exit 1
+        if: ${{github.event.repository.private}}
+      - name: Tests
+        uses: Yandex-Practicum/test-project-action@v1
+        with:
+          project: 'posmotri-v-okno-ad'
