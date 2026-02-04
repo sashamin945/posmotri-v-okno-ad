@@ -1,108 +1,120 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta charset="UTF-8">
-      <title>Посмотри в окно</title>
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="./style/style.css">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <main>
-    <header class="header">
-        <h1 class="header-one">ПО-</h1>
-        <h1 class="header-two">СМОТРИ<br>В ОКНО</h1>
-       <ul class="ul1">
-         <li>ГЛАВНАЯ</li>
-         <li><a href="index2.html">ИЗБРАННОЕ</a></li>
-         <li>О НАС</li>
-       </ul>
-    </header>
-    <img id="main-video" class="video" src="../Фотки спринт 2/video.png">
-    <div class="mainn">
-    <h1 class="main-one">ПО-</h1>
-    <h1 class="main-two">СМОТРИ<br>В ОКНО</h1>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Посмотри в окно</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Fira+Sans+Condensed:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+<body>
+  <main>
+    <header class="header"></header>
+
+    <div class="result__video-container">
+      <img id="main-video" class="video" src="./Фотки спринт 2/preview (1).png" alt="Изображение города">
     </div>
+
+    <div class="posmotri">
+      <h1 class="grey2">ПО-</h1>
+      <h1 class="window2">СМОТРИ<br>В ОКНО</h1>
+    </div>
+
     <div class="div">
       <div class="divv">
-         <div class="card">
-         <p class="card-content1">БЕЛГОРОД</p>
-         <p class="card-content2">ночной Белгород</p>
-         </div>
-         <div class="image-wrapper">
-            <img class="img" src="../Фотки спринт 2/preview.png">
-          <a href="" class="heart-link">
-            <img class="heart" src="../Фотки спринт 2/image 56.svg">
-         </a>
-          </div>
+        <div class="card">
+          <p class="card-content1">БЕЛГОРОД</p>
+          <p class="card-content2">ночной Белгород</p>
+        </div>
+        <div class="image-wrapper">
+          <img class="img" src="./Фотки спринт 2/preview.png" />
+          <a href="#" class="heart-link">
+            <img class="heart" src="./Фотки спринт 2/image 56.svg" />
+          </a>
+        </div>
       </div>
+
       <div class="divv">
-         <div class="card">
-         <p class="card-content1">АДЛЕР</p>
-         <p class="card-content2">Адлер утром</p>
-         </div>
-         <div class="image-wrapper">
-            <img class="img" src="../Фотки спринт 2/preview (1).png">
-         <a href="" class="heart-link">
-            <img class="heart" src="../Фотки спринт 2/image 56.svg">
-         </a>
-         </div>
+        <div class="card">
+          <p class="card-content1">АДЛЕР</p>
+          <p class="card-content2">Адлер утром</p>
+        </div>
+        <div class="image-wrapper">
+          <img class="img" src="./Фотки спринт 2/preview (1).png" />
+          <a href="#" class="image-link">
+            <img class="link" src="./Фотки спринт 2/image 56.svg" />
+          </a>
+        </div>
       </div>
+
       <div class="divv">
-         <div class="card">
-         <p class="card-content1">ВОРОНЕЖ</p>
-         <p class="card-content2">Воронеж днем</p>
-         </div>
-         <div class="image-wrapper">
-            <img class="img" src="../Фотки спринт 2/preview (2).png">
-         <a href="" class="heart-link">
-            <img class="heart" src="../Фотки спринт 2/image 56.svg">
-         </a>
-         </div>
+        <div class="card">
+          <p class="card-content1">ВОРОНЕЖ</p>
+          <p class="card-content2">Воронеж днем</p>
+        </div>
+        <div class="image-wrapper">
+          <img class="img" src="./Фотки спринт 2/Воронеж день.webp"/>
+          <a href="#" class="image-link">
+            <img class="link" src="./Фотки спринт 2/image 56.svg" />
+          </a>
+        </div>
       </div>
-     <button class="btn1" id="btn1">Показать ещё</button>
-     </div>
-     <div class="divvv">
-    <p class="gorod">Город</p>
-    <div class="list">
-    <input type="text" class="input" placeholder="Санкт-Петербург, например" id="input">
-    <div class="cities" id="cities">
-        <div class="city">Белгород</div>
-        <div class="city">Адлер</div>
-        <div class="city">Воронеж</div>
+
+      <div class="divv" style="display: none;" id="container4">
+        <div class="card">
+          <p class="card-content1">ЗЕЛЕНОГРАД...</p>
+          <p class="card-content2">Зеленоградск днем</p>
+        </div>
+        <div class="image-wrapper">
+          <img class="img" src="./Фотки спринт 2/preview (3).png" />
+          <a href="#" class="image-link">
+            <img class="link" src="./Фотки спринт 2/image 56.svg" />
+          </a>
+        </div>
+      </div>
+
+      <button class="btn1" id="btn1">Показать ещё</button>
     </div>
-</div>
-<span class="day">Время суток</span>
-<ul class="ul2">
-   <div class="radios">
-   <li>
-   <input type="radio" id="radio1" name="choice" value="утро">
-   <label for="radio1">Утро</label>
-   </li>
-   </div>
-   <div class="radios">
-   <li>
-   <input type="radio" id="radio2" name="choice" value="день">
-   <label for="radio2">День</label>
-   </li>
-   </div>
-   <div class="radios">
-   <li>
-   <input type="radio" id="radio3" name="choice" value="ночь">
-   <label for="radio3">Ночь</label>
-   </li>
-   </div>
-</ul>
-<button class="btn2">Найти</button>
-</div>
-      </main>
-<script src="./scripts/script.js"></script>
-   </body>
+
+    <div class="divvv">
+      <p class="gorod">Город</p>
+      <div class="list">
+        <input type="text" class="input" placeholder="Санкт-Петербург, например" id="input" />
+        <div class="cities" id="cities">
+          <div class="list-city">Белгород</div>
+          <div class="list-city">Адлер</div>
+          <div class="list-city">Воронеж</div>
+          <div class="list-city">Зеленоградск</div>
+        </div>
+      </div>
+
+      <span class="sutki">Время суток</span>
+      <ul class="ul2">
+        <div class="radios">
+          <li>
+            <input type="radio" id="radio1" name="choice" value="утро" />
+            <label for="radio1">Утро</label>
+          </li>
+        </div>
+        <div class="radios">
+          <li>
+            <input type="radio" id="radio2" name="choice" value="день" checked />
+            <label for="radio2">День</label>
+          </li>
+        </div>
+        <div class="radios">
+          <li>
+            <input type="radio" id="radio3" name="choice" value="ночь" />
+            <label for="radio3">Ночь</label>
+          </li>
+        </div>
+      </ul>
+      <button class="btn2">Найти</button>
+    </div>
+  </main>
+
+  <script src="./scripts/script.js"></script>
+</body>
 </html>
